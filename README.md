@@ -2,23 +2,18 @@
 
 Take charge of your tasks and achieve greater productivity with Todo Mastery, a user-friendly and visually appealing todo list web app built with React, Tailwind CSS, and Formik. Effortlessly create, manage, and prioritize your tasks with features designed to streamline your workflow and boost your efficiency.
 
-`Open production deploy`
-
-### https://65967753c427705253e87012--monumental-pika-e0a0d1.netlify.app/?fbclid=IwAR1xAsw8kjiLO4MnUAeE1dWnDG_dJe19rJ4Al3WJszYFonY-jvdJtq-vvI8
+`Open production deploy` Visit Todo-lis website [Link](https://65967753c427705253e87012--monumental-pika-e0a0d1.netlify.app/)
 
 ### Features:
 
 - Seamless Task Management:
-  - Effortlessly add new tasks with intuitive form fields, ensuring every detail is captured.
+
+  - Effortlessly add new tasks with intuitive form
+
+  - fields, ensuring every detail is captured.
   - Edit existing tasks with ease to stay adaptable and adjust priorities as needed.
   - Mark tasks as complete with satisfying visual cues, celebrating your progress and fostering motivation.
   - Delete completed tasks to maintain a clutter-free and focused workspace, promoting clarity and focus.
-
-* Enhanced Organization:
-
-  - Filter tasks by various criteria, such as completion status, priority level, or due dates, allowing you to focus on the most relevant tasks at hand.
-
-  - Prioritize tasks effectively using drag-and-drop functionality, ensuring your most important items receive the attention they deserve.
 
 * Beautifully Crafted Interface:
 
@@ -31,9 +26,11 @@ Take charge of your tasks and achieve greater productivity with Todo Mastery, a 
 
 ### Technology Stack:
 
-- Frontend: React (JavaScript library for building user interfaces)
-- CSS: Tailwind CSS (utility-first CSS framework for rapid styling)
-- Form Handling: Formik (powerful form handling library for intuitive data interactions)
+✅ Frontend: React (JavaScript library for building user interfaces)
+
+✅ CSS: Tailwind CSS (utility-first CSS framework for rapid styling)
+
+✅ Form Handling: Formik (powerful form handling library for intuitive data interactions)
 
 ---
 
@@ -76,6 +73,8 @@ TodoEditTask
 ![TodoEditTask](https://github.com/mnoby98/Todo-List/assets/133987293/092193e6-bba4-4b1e-be7b-053790ae0420)
 
 ---
+
+### `npm install `
 
 ### `npm start`
 
