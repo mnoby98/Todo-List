@@ -38,7 +38,7 @@ function TodoList({ edit, id: editId, setEditTask }) {
         <Form>
           <div className=" items-center flex justify-between gap-2">
             <Field
-              className="focus:outline-none min-w-20 focus:border-gray-300 rounded-md px-2 py-1 border border-gray-300"
+              className="focus:outline-none  flex-grow min-w-20 focus:border-gray-300 rounded-md px-2 py-1 border border-gray-300"
               id="task"
               type="text"
               name="task"

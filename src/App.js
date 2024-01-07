@@ -7,11 +7,17 @@ function App() {
   return (
     <TaskContextProvider>
       <div className=" h-svh flex gap-5 flex-col md:flex-row  items-center px-2 justify-center   bg-[#0bb6ff]">
-        <div className="pt-2  lg:text-base lg:font-normal md:text-xl md:font-semibold  text-xl  font-semibold   rounded-md  w-full  max-w-md">
-          <TodoList />
-          <Tasks />
-        </div>
-        <NextLevelEgy />
+        <main className="pt-2  lg:text-base lg:font-normal md:text-xl md:font-semibold  text-xl  font-semibold   rounded-md  w-full  max-w-md">
+          <section>
+            <TodoList />
+          </section>
+          <section>
+            <Tasks />
+          </section>
+        </main>
+        <header>
+          <NextLevelEgy />
+        </header>
       </div>
     </TaskContextProvider>
   );

@@ -24,39 +24,47 @@ function Tasks() {
           </select>
         </div>
       </div>
-      {filter === "all" &&
-        orderTasks?.map((task) => (
-          <Task
-            task={task.task}
-            key={task.id}
-            id={task.id}
-            complete={task.complete}
-          />
-        ))}
-      {filter === "complete" &&
-        orderTasks?.map(
-          (task) =>
-            task.complete === true && (
+      <ul>
+        {filter === "all" &&
+          orderTasks?.map((task) => (
+            <li key={task.id}>
               <Task
                 task={task.task}
-                key={task.id}
                 id={task.id}
                 complete={task.complete}
               />
-            )
-        )}
-      {filter === "incomplete" &&
-        orderTasks?.map(
-          (task) =>
-            task.complete === false && (
-              <Task
-                task={task.task}
-                key={task.id}
-                id={task.id}
-                complete={task.complete}
-              />
-            )
-        )}
+            </li>
+          ))}
+
+        {filter === "complete" &&
+          orderTasks?.map(
+            (task) =>
+              task.complete === true && (
+                <li key={task.id}>
+                  <Task
+                    task={task.task}
+                    key={task.id}
+                    id={task.id}
+                    complete={task.complete}
+                  />
+                </li>
+              )
+          )}
+        {filter === "incomplete" &&
+          orderTasks?.map(
+            (task) =>
+              task.complete === false && (
+                <li key={task.id}>
+                  <Task
+                    task={task.task}
+                    key={task.id}
+                    id={task.id}
+                    complete={task.complete}
+                  />
+                </li>
+              )
+          )}
+      </ul>
     </div>
   ) : (
     <div className="text-gray-600 text-center mt-4">
